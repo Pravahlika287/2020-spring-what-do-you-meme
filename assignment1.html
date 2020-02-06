@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <
+    <title>Drop down <Menu></Menu></title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Lucida Sans' , Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+        
+        .hero {
+            padding: 31px;
+            margin: 30px;
+            border-radius: 10px;
+            border: 1px solid lightskyblue;
+            background-color: aliceblue;
+        }
+        a {
+            text-decoration: none;
+            font-weight: bold;
+            color: lavenderblush;
+       }
+
+        .menu {
+            width: 100%;
+            background-color:darkred;
+            font-weight: bold;
+            color: lavenderblush;
+        }
+        .menu > div, li {
+            display: inline-block;
+            position: relative;
+            width: 100px;
+            border-right: 1px solid orchid;
+            padding: 5px 15px;
+        }
+        li {
+            width: 105px;
+        }
+        .menu ul {
+            display: none;
+            position: absolute;
+            list-style-type: none;
+            background-color: olive;
+            left: -5px;
+            top: 12px;
+            padding: 0;
+        }
+        .menu > div:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div>
+            File
+            <ul>
+                <li><a href="">Open</a></li>
+                <li><a href="">Save</a></li>
+                <li><a href="">Print</a></li>
+                <li><a href="">Exit</a></li>
+            </ul>
+        </div>
+        <div>
+            Edit
+            <ul>
+                <li><a href="">Copy</a></li>
+                <li><a href="">Cut</a></li>
+                <li><a href="">Paste</a></li>
+                <li><hr ></li>
+                <li><a href="">Format</a></li>
+            </ul>
+        </div>
+        <div>
+            Help
+            <ul>
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="hero">
+        
+        <h2>A Trapped-ion pair may help scale up quantum computers.</h2>
+        <p>
+            Qubits made from strontium and calcium ionss can be precisely controlled by Technology that already exists</p>
+        
+        </p>
+    </div>    
+</body>
+</html>
