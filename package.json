@@ -1,0 +1,22 @@
+{
+  "name": "what",
+  "version": "1.0.0",
+  "description": "Iam Laxmi Naga Pravahlika  Kurapati  pursuing  Masters in Computer  Science  in SUNY  New  Paltz , New York. I would  like to specify my Academic Qualification Which I completed in India during (2015-2019). I completed my Bachelor Of  Engg in Computer Science From Osmania University, Hyderabad, India. The subjects that we learned during the course are Data Structures ,Data Mining ,Artificial Intelligence , Compiler Construction , Computer Networks ,Embedded  Systems ,Automata, Theory Computation ,Web programming  and services ,Data Communications. During the fifth semester, We had a  Lab session for Web programming and services  Where we had to complete building of some websites using HTML, CSS and javascript. I had a good experience learning and practicing how to build dynamic and static web- Pages during the entire semester. For a mini project I worked on building a website for Fundraising using BOOTSTRAP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pravahlika287/2020-spring-what-do-you-meme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pravahlika287/2020-spring-what-do-you-meme/issues"
+  },
+  "homepage": "https://github.com/Pravahlika287/2020-spring-what-do-you-meme#readme"
+}
